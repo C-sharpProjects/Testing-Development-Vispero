@@ -1,9 +1,6 @@
+# Tester Vispero
 
-
-````markdown
-# Electronic Tester Vispero
-
-**Electronic Tester Vispero** is a Windows-based WinForms application built in C#. It is designed to provide testing support for electronics equipment / manufacturing processes (or whatever your specific domain is) and is packaged in the solution named `TESTER.sln`.
+**Tester Vispero** is a Windows-based WinForms application built in C#. It is designed to provide testing support for electronics equipment / manufacturing processes (or whatever your specific domain is) and is packaged in the solution named `TESTER.sln`.
 
 ## Table of Contents
 
@@ -48,49 +45,3 @@ Before you begin, ensure you have:
    ```bash
    git clone https://github.com/C-sharpProjects/Electronic_Tester_Vispero.git
    cd Electronic_Tester_Vispero
-````
-
-2. Open the solution `TESTER.sln` in Visual Studio.
-3. Restore NuGet packages if any.
-4. Build the solution (Build → Rebuild).
-5. Run the application (F5) or publish it for deployment (Build → Publish).
-
-## Usage
-
-1. Launch the application (e.g., `Tester.exe`).
-2. Connect your testing hardware/device and ensure the correct port/settings.
-3. In the GUI, configure your test profile:
-
-   * Select the test mode or sequence
-   * Set parameters (thresholds, limits, durations)
-   * Choose output path for results
-4. Start the test run. Monitor live progress in the UI.
-5. Upon completion, view the result summary (pass/fail) and access the detailed log/report.
-6. Export or archive results as required.
-
-*(Provide screenshots or a short video/gif if helpful.)*
-
-## Configuration
-
-Describe configuration options such as:
-
-* `config.json` or an app settings file (if used)
-* Communication port settings (COM1/COM2,…), baud rate, parity, etc.
-* Result storage path or database connection string
-* Logging level or verbosity
-* Test sequence definitions (XML/JSON/templates)
-
-## Development
-
-If you wish to contribute or modify the application:
-
-* The main project is under `TESTER/` directory.
-* Follow the coding convention: C# naming, safe disposal of resources (e.g., hardware ports), background worker/task for UI responsiveness.
-* Use Git feature branches, commit messages like “Add feature X” or “Fix bug Y”.
-* Unit testing: (if applicable) add tests under `Tests/` project.
-* Ensure UI remains responsive by avoiding blocking calls in the main thread.
-* When interacting with hardware, always implement error/exception handling and cleanup/dispose logic.
-
-
-
----
