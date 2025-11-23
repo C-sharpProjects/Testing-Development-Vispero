@@ -2,9 +2,9 @@
 ---
 
 ````markdown
-# Electronic Tester Vispero
+# Testing Development Vispero
 
-**Electronic Tester Vispero** is a Windows-based WinForms application built in C#. It is designed to provide testing support for electronics equipment / manufacturing processes (or whatever your specific domain is) and is packaged in the solution named `TESTER.sln`.
+**Tester Vispero** is a Windows-based WinForms application built in C#. It is designed to provide testing support for electronics equipment / manufacturing processes (or whatever your specific domain is) and is packaged in the solution named `TESTER.sln`.
 
 ## Table of Contents
 
